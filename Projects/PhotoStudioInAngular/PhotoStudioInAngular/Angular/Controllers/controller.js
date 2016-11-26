@@ -1,19 +1,8 @@
-﻿(function () {
-    'use strict';
+﻿/// <autosync enabled="true"/>
+/// <reference path="~/Angular/lib/angular.js"/>
+/// <reference path="app.js"/>
+/// <reference path="~/Angular/lib/angular.min.js" />
+/// <reference path="~/Angular/lib/angular.route.min.js" />
 
-    angular
-        .module('app')
-        .controller('controller', controller);
 
-    controller.$inject = ['$location']; 
-
-    function controller($location) {
-        /* jshint validthis:true */
-        var vm = this;
-        vm.title = 'controller';
-
-        activate();
-
-        function activate() { }
-    }
-})();
+//angular.module(0);
