@@ -1,0 +1,175 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="..\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.1.0.0\build\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.props" Condition="Exists('..\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.1.0.0\build\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.props')" />
+  <Import Project="..\packages\Microsoft.Net.Compilers.1.0.0\build\Microsoft.Net.Compilers.props" Condition="Exists('..\packages\Microsoft.Net.Compilers.1.0.0\build\Microsoft.Net.Compilers.props')" />
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>
+    </ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{50983D16-D964-4027-84BD-F7BD87194801}</ProjectGuid>
+    <ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{fae04ec0-301f-11d3-bf4b-00c04f79efbc}</ProjectTypeGuids>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>PhotoStudioInAngular</RootNamespace>
+    <AssemblyName>PhotoStudioInAngular</AssemblyName>
+    <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
+    <UseIISExpress>true</UseIISExpress>
+    <IISExpressSSLPort />
+    <IISExpressAnonymousAuthentication />
+    <IISExpressWindowsAuthentication />
+    <IISExpressUseClassicPipelineMode />
+    <UseGlobalApplicationHostFile />
+    <NuGetPackageImportStamp>
+    </NuGetPackageImportStamp>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Angular\Controllers\controller.js" />
+    <Content Include="Angular\lib\angular-animate.js" />
+    <Content Include="Angular\lib\angular-animate.min.js" />
+    <Content Include="Angular\lib\angular-aria.js" />
+    <Content Include="Angular\lib\angular-aria.min.js" />
+    <Content Include="Angular\lib\angular-cookies.js" />
+    <Content Include="Angular\lib\angular-cookies.min.js" />
+    <Content Include="Angular\lib\angular-csp.css" />
+    <Content Include="Angular\lib\angular-loader.js" />
+    <Content Include="Angular\lib\angular-loader.min.js" />
+    <Content Include="Angular\lib\angular-message-format.js" />
+    <Content Include="Angular\lib\angular-message-format.min.js" />
+    <Content Include="Angular\lib\angular-messages.js" />
+    <Content Include="Angular\lib\angular-messages.min.js" />
+    <Content Include="Angular\lib\angular-mocks.js" />
+    <Content Include="Angular\lib\angular-parse-ext.js" />
+    <Content Include="Angular\lib\angular-parse-ext.min.js" />
+    <Content Include="Angular\lib\angular-resource.js" />
+    <Content Include="Angular\lib\angular-resource.min.js" />
+    <Content Include="Angular\lib\angular-route.js" />
+    <Content Include="Angular\lib\angular-route.min.js" />
+    <Content Include="Angular\lib\angular-sanitize.js" />
+    <Content Include="Angular\lib\angular-sanitize.min.js" />
+    <Content Include="Angular\lib\angular-scenario.js" />
+    <Content Include="Angular\lib\angular-touch.js" />
+    <Content Include="Angular\lib\angular-touch.min.js" />
+    <Content Include="Angular\lib\angular.js" />
+    <Content Include="Angular\lib\angular.min.js" />
+    <Content Include="Angular\lib\version.txt" />
+    <Content Include="app.js" />
+    <Content Include="BootStrap337\css\bootstrap-theme.css" />
+    <Content Include="BootStrap337\css\bootstrap-theme.min.css" />
+    <Content Include="BootStrap337\css\bootstrap.css" />
+    <Content Include="BootStrap337\css\bootstrap.min.css" />
+    <Content Include="BootStrap337\fonts\glyphicons-halflings-regular.svg" />
+    <Content Include="BootStrap337\js\bootstrap.js" />
+    <Content Include="BootStrap337\js\bootstrap.min.js" />
+    <Content Include="BootStrap337\js\npm.js" />
+    <Content Include="index.html" />
+    <Content Include="_reference.js" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="JsonData\Imagesjson.json" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Angular\lib\docs\" />
+    <Folder Include="Angular\lib\i18n\" />
+    <Folder Include="Angular\Models\" />
+    <Folder Include="Angular\Views\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="BootStrap337\css\bootstrap-theme.css.map" />
+    <Content Include="BootStrap337\css\bootstrap-theme.min.css.map" />
+    <Content Include="BootStrap337\css\bootstrap.css.map" />
+    <Content Include="BootStrap337\css\bootstrap.min.css.map" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="BootStrap337\fonts\glyphicons-halflings-regular.eot" />
+    <Content Include="BootStrap337\fonts\glyphicons-halflings-regular.ttf" />
+    <Content Include="BootStrap337\fonts\glyphicons-halflings-regular.woff" />
+    <Content Include="BootStrap337\fonts\glyphicons-halflings-regular.woff2" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Angular\lib\angular-animate.min.js.map" />
+    <Content Include="Angular\lib\angular-aria.min.js.map" />
+    <Content Include="Angular\lib\angular-cookies.min.js.map" />
+    <Content Include="Angular\lib\angular-loader.min.js.map" />
+    <Content Include="Angular\lib\angular-message-format.min.js.map" />
+    <Content Include="Angular\lib\angular-messages.min.js.map" />
+    <Content Include="Angular\lib\angular-parse-ext.min.js.map" />
+    <Content Include="Angular\lib\angular-resource.min.js.map" />
+    <Content Include="Angular\lib\angular-route.min.js.map" />
+    <Content Include="Angular\lib\angular-sanitize.min.js.map" />
+    <Content Include="Angular\lib\angular-touch.min.js.map" />
+    <Content Include="Angular\lib\angular.min.js.map" />
+    <Content Include="Angular\lib\errors.json" />
+    <Content Include="Angular\lib\version.json" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="web.config" />
+    <None Include="web.Debug.config">
+      <DependentUpon>web.config</DependentUpon>
+    </None>
+    <None Include="web.Release.config">
+      <DependentUpon>web.config</DependentUpon>
+    </None>
+  </ItemGroup>
+  <PropertyGroup>
+    <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
+    <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
+  </PropertyGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <Import Project="$(VSToolsPath)\WebApplications\Microsoft.WebApplication.targets" Condition="'$(VSToolsPath)' != ''" />
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v10.0\WebApplications\Microsoft.WebApplication.targets" Condition="false" />
+  <ProjectExtensions>
+    <VisualStudio>
+      <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}">
+        <WebProjectProperties>
+          <UseIIS>True</UseIIS>
+          <AutoAssignPort>True</AutoAssignPort>
+          <DevelopmentServerPort>50751</DevelopmentServerPort>
+          <DevelopmentServerVPath>/</DevelopmentServerVPath>
+          <IISUrl>http://localhost:50751/</IISUrl>
+          <NTLMAuthentication>False</NTLMAuthentication>
+          <UseCustomServer>False</UseCustomServer>
+          <CustomServerUrl>
+          </CustomServerUrl>
+          <SaveServerSettingsInUserFile>False</SaveServerSettingsInUserFile>
+        </WebProjectProperties>
+      </FlavorProperties>
+    </VisualStudio>
+  </ProjectExtensions>
+  <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">
+    <PropertyGroup>
+      <ErrorText>This project references NuGet package(s) that are missing on this computer. Use NuGet Package Restore to download them.  For more information, see http://go.microsoft.com/fwlink/?LinkID=322105. The missing file is {0}.</ErrorText>
+    </PropertyGroup>
+    <Error Condition="!Exists('..\packages\Microsoft.Net.Compilers.1.0.0\build\Microsoft.Net.Compilers.props')" Text="$([System.String]::Format('$(ErrorText)', '..\packages\Microsoft.Net.Compilers.1.0.0\build\Microsoft.Net.Compilers.props'))" />
+    <Error Condition="!Exists('..\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.1.0.0\build\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.props')" Text="$([System.String]::Format('$(ErrorText)', '..\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.1.0.0\build\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.props'))" />
+  </Target>
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
