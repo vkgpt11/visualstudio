@@ -1,0 +1,14 @@
+c:\users\vikas\documents\visual studio 2017\Projects\Algorithms\Algorithms\bin\Debug\Algorithms.exe.config
+c:\users\vikas\documents\visual studio 2017\Projects\Algorithms\Algorithms\bin\Debug\Algorithms.exe
+c:\users\vikas\documents\visual studio 2017\Projects\Algorithms\Algorithms\bin\Debug\Algorithms.pdb
+c:\users\vikas\documents\visual studio 2017\Projects\Algorithms\Algorithms\obj\Debug\Algorithms.csprojResolveAssemblyReference.cache
+c:\users\vikas\documents\visual studio 2017\Projects\Algorithms\Algorithms\obj\Debug\MainWindow.g.cs
+c:\users\vikas\documents\visual studio 2017\Projects\Algorithms\Algorithms\obj\Debug\App.g.cs
+c:\users\vikas\documents\visual studio 2017\Projects\Algorithms\Algorithms\obj\Debug\Algorithms_MarkupCompile.cache
+c:\users\vikas\documents\visual studio 2017\Projects\Algorithms\Algorithms\obj\Debug\Algorithms_MarkupCompile.lref
+c:\users\vikas\documents\visual studio 2017\Projects\Algorithms\Algorithms\obj\Debug\MainWindow.baml
+c:\users\vikas\documents\visual studio 2017\Projects\Algorithms\Algorithms\obj\Debug\Algorithms.g.resources
+c:\users\vikas\documents\visual studio 2017\Projects\Algorithms\Algorithms\obj\Debug\Algorithms.Properties.Resources.resources
+c:\users\vikas\documents\visual studio 2017\Projects\Algorithms\Algorithms\obj\Debug\Algorithms.csproj.GenerateResource.Cache
+c:\users\vikas\documents\visual studio 2017\Projects\Algorithms\Algorithms\obj\Debug\Algorithms.exe
+c:\users\vikas\documents\visual studio 2017\Projects\Algorithms\Algorithms\obj\Debug\Algorithms.pdb
